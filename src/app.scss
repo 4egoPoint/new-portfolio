@@ -5,6 +5,10 @@
    scrollbar-width: auto;
    scrollbar-color: #969696 #454545;
 }
+body{
+   background-color: #080809;
+
+}
 
 *::-webkit-scrollbar {
    width: 12px;
@@ -20,7 +24,6 @@
 }
 
 .app {
-   background-color: #080809;
    min-height: 100vh;
    width: 100%;
 }

@@ -1,0 +1,13 @@
+
+.cross{
+   margin: 50px;
+   height: 20vh;
+   &__text{
+      font-size: 25px;
+      -webkit-transform: rotate(10deg);
+      color: balck;
+      background-color: whitesmoke;
+      display: flex;
+      justify-content: space-around;
+   }
+}

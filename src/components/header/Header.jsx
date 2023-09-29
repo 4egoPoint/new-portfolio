@@ -8,7 +8,7 @@ const Header = () => {
       <div className="header">
          <div className="w__wrap">
             <nav className="header__row">
-               <Link to="/" className="header__me">Dear <span>Me</span></Link>
+               <Link to="/" className="header__me">Virtual <span>Me</span></Link>
                <div className="header__info">
                   <Link to="/skills/" className="header__skills">Skills</Link>
                   <Link to="/contacts/" className="header__contacts">Contacts</Link>
