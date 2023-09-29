@@ -1,3 +1,44 @@
-.projects{
-   height: 300vh;
+.projects {
+   width: 100%;
+   margin-top: 30px;
+
+   &__height {
+      position: relative;
+      height: 300vh;
+   }
+
+   &__row {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      gap: 100px;
+   }
+}
+
+.project {
+   background-color: whitesmoke;
+   padding: 15px;
+   height: 70vh;
+   min-width: 600px;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   opacity: 1;
+
+   img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+   }
+
+   transition: opacity 0.4s,padding 0.7s;
+
+   &:hover {
+      opacity: 0.8;
+      padding: 5px;
+   }
 }

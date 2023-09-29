@@ -5,9 +5,10 @@
    scrollbar-width: auto;
    scrollbar-color: #969696 #454545;
 }
-body{
-   background-color: #080809;
 
+body {
+   background-color: #080809;
+   overflow-x: hidden;
 }
 
 *::-webkit-scrollbar {

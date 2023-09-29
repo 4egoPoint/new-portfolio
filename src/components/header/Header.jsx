@@ -11,6 +11,7 @@ const Header = () => {
                <Link to="/" className="header__me">Virtual <span>Me</span></Link>
                <div className="header__info">
                   <Link to="/skills/" className="header__skills">Skills</Link>
+                  <Link to="/experience/" className="header__contacts">Experience</Link>
                   <Link to="/contacts/" className="header__contacts">Contacts</Link>
                </div>
             </nav>
