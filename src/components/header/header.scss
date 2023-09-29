@@ -1,0 +1,57 @@
+.header {
+   width: 100%;
+   a{
+      text-decoration: none;
+   }
+   &__row {
+      height: 10vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      border-bottom: 1px solid whitesmoke;
+   }
+   &__me{
+      font-size: 30px;
+      font-weight: 600;
+      color: whitesmoke;
+      span{
+         color: lightgray;
+      }
+   }
+
+   &__info {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+   }
+
+   &__skills {
+      color: black;
+      background-color: whitesmoke;
+      border: 2px solid whitesmoke;
+      border-radius: 100px;
+      padding: 5px 10px;
+      font-size: 20px;
+   }
+   &__skills:hover{
+      background-color: transparent;
+      color: whitesmoke;
+   }
+
+   &__contacts {
+      color: black;
+      background-color: whitesmoke;
+      border: 2px solid whitesmoke;
+      border-radius: 100px;
+      padding: 5px 10px;
+      font-size: 20px;
+   }
+   &__contacts:hover{
+      background-color: transparent;
+      color: whitesmoke;
+   }
+}
