@@ -15,12 +15,12 @@ const Projects = () => {
          <div className="w__wrap">
             <div ref={targetRef} className="projects__height">
                <motion.div style={{ x }} className="projects__row">
-                  <Link to={"/pages/bounty"} className="project">
+                  <a href="https://priwat-portfolio-domain.online/" target="_blank" className="project">
                      <img src={require("../../../../images/bounty.jpg")} alt="img" />
-                  </Link>
-                  <Link to={"/pages/weather"} className="project">
+                  </a>
+                  <a href="https://weather-app.cloud/" target="_blank" className="project">
                      <img src={require("../../../../images/weather.jpg")} alt="img" />
-                  </Link>
+                  </a>
                </motion.div>
             </div>
          </div>
