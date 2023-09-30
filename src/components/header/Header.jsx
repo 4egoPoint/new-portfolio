@@ -8,7 +8,7 @@ const Header = () => {
       window.scroll(0,1280)
    }
    const scrollCon = () => {
-      window.scroll()
+      window.scroll(0,6600)
       
    }
    return (
