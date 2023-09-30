@@ -29,20 +29,8 @@
       gap: 25px;
    }
 
-   &__skills {
-      color: black;
-      background-color: whitesmoke;
-      border: 2px solid whitesmoke;
-      border-radius: 100px;
-      padding: 5px 10px;
-      font-size: 20px;
-   }
-   &__skills:hover{
-      background-color: transparent;
-      color: whitesmoke;
-   }
-
    &__contacts {
+      cursor: pointer;
       color: black;
       background-color: whitesmoke;
       border: 2px solid whitesmoke;

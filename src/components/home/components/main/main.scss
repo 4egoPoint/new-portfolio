@@ -16,7 +16,7 @@
       width: 400px;
       border-radius: 50%;
       object-fit: cover;
-      box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px, rgba(255, 255, 255, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px;
+      box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) -10px 10px, rgba(255, 255, 255, 0.2) 15px -15px, rgba(255, 255, 255, 0.15) -20px -20px, rgba(255, 255, 255, 0.1) 25px 25px;
       transition: padding 1s;
       &:hover {
          padding: 0;

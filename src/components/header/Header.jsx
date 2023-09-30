@@ -4,15 +4,21 @@ import { Link } from "react-router-dom"
 import "./header.scss"
 
 const Header = () => {
+   const scrollExp = () => {
+      window.scroll(0,1280)
+   }
+   const scrollCon = () => {
+      window.scroll()
+      
+   }
    return (
       <div className="header">
          <div className="w__wrap">
             <nav className="header__row">
                <Link to="/" className="header__me">Virtual <span>Me</span></Link>
                <div className="header__info">
-                  <Link to="/skills/" className="header__skills">Skills</Link>
-                  <Link to="/experience/" className="header__contacts">Experience</Link>
-                  <Link to="/contacts/" className="header__contacts">Contacts</Link>
+                  <button onClick={scrollExp} className="header__contacts">Experience</button>
+                  <button onClick={scrollCon} className="header__contacts">Contacts</button>
                </div>
             </nav>
          </div>
